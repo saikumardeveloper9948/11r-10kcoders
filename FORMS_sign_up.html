@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+fieldset{
+    background-color: bisque;
+    height: 350px;
+    width: 500px;
+}
+legend{
+    background-color: black;
+    color: rgb(189, 236, 37);
+}
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./" alt="">
+    </div>
+    <fieldset>
+        <legend>Sign Up</legend>
+        <form>
+           <label for="Name">1. User Name :</label>
+            <input type="text" id="Name" placeholder="first name" name="fname">
+            <!-- disabled-tag  is used to disable the data-->
+             <!-- readonly- orm with a read-only input field -->
+             <input type="text" id="name" placeholder="last name" name="lname"> <br> <br>
+
+            <label for="mail">2.Email ID :</label>
+            <input type="email" id="mail"  placeholder="enter valid email" name="e_mail"> <br> <br>
+            <label for=" pswd">3. Enter Password :</label>
+            <input type="password" id="pswd" placeholder="enter password" name="password"> <br> <br>
+            <label for=" pswd">4. Confirm Password :</label>
+            <input type="password" id="pswd" placeholder=" re-enter password" name="password"> <br> <br>
+            <label for="DOB">5.Date of Birth :</label>
+            <input type="date" id="DOB" name="date_of_birth"> <br> <br>
+            <label for="">6.Gender </label>
+            <input type="radio">male 
+
+            <input type="radio">Female <br><br>
+        <label for="list">7.Course :</label>
+         <select name="select" id="list">
+              <optgroup placeholder="~select~">
+               <option > select</option> 
+              <option > web development</option>
+              <option > Java Fullstack</option>
+              <option > Python Fullstack</option>
+              <option > MERN stack</option>
+              <option > MEAN stack</option>
+              </optgroup>
+         </select><br><br>
+         <pre>
+   <button>reset</button>                                 <button>Register</button>
+          </pre>
+           
+        </form>
+    </fieldset>
+</body>
+</html>
